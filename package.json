@@ -1,0 +1,68 @@
+{
+  "name": "@deviantcode/api.client",
+  "version": "2.0.0",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon ./app.js",
+    "prod": "cross-env NODE_ENV=production node ./app.js",
+    "staging": "cross-env NODE_ENV=staging node ./app.js"
+  },
+  "keywords": [
+    "client",
+    "client key",
+    "api",
+    "deviant",
+    "e-commerce"
+  ],
+  "author": "@DevOps | https://deviant.code",
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "@deviantcode/crypt": "^1.1.0",
+    "@variantis/crypt": "^1.1.1",
+    "@variantis/user": "^1.0.2",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.0.0",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "form-data": "^3.0.0",
+    "fs": "0.0.1-security",
+    "http-errors": "~1.6.3",
+    "ioredis": "^4.27.6",
+    "js-base64": "^3.6.0",
+    "js-cookie": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "lmdb": "^1.5.5",
+    "md5": "^2.3.0",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.7",
+    "morgan": "~1.9.1",
+    "node-lmdb": "^0.9.4",
+    "nodemailer": "^6.5.0",
+    "randomstring": "^1.1.5",
+    "redis": "^3.0.2",
+    "request-ip": "^2.1.3",
+    "sha-256-js": "^1.0.3",
+    "sha1": "^1.1.1",
+    "twig": "~0.10.3",
+    "uniqid": "^5.2.0",
+    "utf8": "^3.0.0",
+    "uuid": "^8.3.2",
+    "validate.js": "^0.13.1"
+  },
+  "devDependencies": {
+    "gzipper": "^2.10.4",
+    "jest": "^23.6.0",
+    "nodemon": "^2.0.7"
+  }
+}
